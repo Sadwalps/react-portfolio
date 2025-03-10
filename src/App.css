@@ -1,0 +1,93 @@
+
+#navmaindiv{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  font-size: x-large;
+  
+}
+#navmaindiv #hoverdiv{
+  height: 5px;
+  width: 0px;
+  background-color: brown;
+  margin-top: 5px;
+  background-color: rgb(151, 203, 232);
+  margin-right: 5px;
+  border-radius: 7px;
+}
+#navmaindiv:hover #hoverdiv{
+  width: 40px; 
+  transition-duration: .3s;
+}
+#homelargescreendiv{
+  position: fixed;
+  top: 100px;
+  
+}
+#maincontainerdiv{
+  background-color: rgb(141, 55, 55);
+  width: 100%;
+  padding: 40px 35px 0px 35px;
+  color: white;
+  font-size: larger;
+}
+
+#Educationdiv{
+  background-color:rgb(250, 223, 224) ;
+  padding: 40px 35px 0px 35px;
+  color: black;
+  font-size: larger;
+}
+
+/* my skills  */
+.mainbar{
+  height: 250px;
+  width: 50px;
+  background-color:white;
+  display: flex;
+  align-items: end;
+  border-radius: 7px;
+  
+}
+.mainbar .subbar{
+  width: 50px;
+  background-color: rgb(234, 204, 14);
+  display: none;
+  border-radius: 7px;
+  color: black;
+  font-size:x-large;
+  font-weight: 500;
+  
+}
+.mainbar:hover .subbar{
+  display: block;
+}
+.logodiv{
+  font-size:xx-large;
+  background-color: rgb(234, 204, 14);
+  color: black;
+  padding: 5px 12px;
+  margin-top: 7px;
+  border-radius: 7px;
+}
+
+
+
+
+/* media query */
+@media screen and (max-width:765px){
+  #homelargescreendiv{
+    display: none;
+  }
+  #maincontainerdiv{
+    padding: 25px 20px 0px 20px;
+    font-size: smaller;
+    
+  }
+  #Educationdiv{
+    padding: 25px 20px 0px 20px;
+    font-size: smaller;
+  }
+}
+
+
