@@ -70,6 +70,25 @@
   margin-top: 7px;
   border-radius: 7px;
 }
+.projectmaindiv{
+  padding: 10px 10px;
+  position: relative;
+  
+}
+.projectmaindiv .projecthoverdiv{
+  position: absolute;
+  bottom: 80px;
+  left: 120px;
+  display: none;
+}
+.projectmaindiv:hover .projecthoverdiv{
+  display: block;
+}
+.projecthoversubdiv{
+  display: flex;
+  gap: 80px;
+  font-size: 50px;
+}
 
 
 
@@ -87,6 +106,63 @@
   #Educationdiv{
     padding: 25px 20px 0px 20px;
     font-size: smaller;
+  }
+
+  .mainbar{
+    height: 240px;
+    width: 47px;
+    border-radius: 6px;
+    
+  }
+  .mainbar .subbar{
+    width: 47px;
+    display: block;
+    border-radius: 6px;
+    font-size:x-large;
+    font-weight: 500;
+    
+  }
+  .logodiv{
+    font-size:x-large;
+    padding: 7px 15px;
+    margin-top: 6px;
+    border-radius: 6px;
+  }
+  #navmaindiv #hoverdiv{
+    display: none;
+  }
+  .projectmaindiv:hover .projecthoverdiv{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:450px){
+  .mainbar{
+    height: 230px;
+    width: 44px;
+    border-radius: 6px;
+    
+  }
+  .mainbar .subbar{
+    width: 44px;
+    display: block;
+    border-radius: 6px;
+    font-size:x-large;
+    font-weight: 400;
+    
+  }
+  .logodiv{
+    font-size:x-large;
+    padding: 6px 13px;
+    margin-top: 6px;
+    border-radius: 6px;
+  }
+  #navmaindiv #hoverdiv{
+    display: none;
+  }
+  .projectmaindiv:hover .projecthoverdiv{
+    display: none;
   }
 }
 
