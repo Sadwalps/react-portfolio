@@ -56,7 +56,7 @@
   display: none;
   border-radius: 7px;
   color: black;
-  font-size:x-large;
+  font-size:large;
   font-weight: 500;
   
 }
@@ -79,7 +79,7 @@
 }
 .projectmaindiv .projecthoverdiv{
   position: absolute;
-  bottom: 280px;
+  bottom: 130px;
   left: 120px;
   display: none;
 }
@@ -160,7 +160,7 @@
     width: 47px;
     display: block;
     border-radius: 6px;
-    font-size:x-large;
+    font-size:large;
     font-weight: 500;
     
   }
@@ -198,7 +198,7 @@
     width: 44px;
     display: block;
     border-radius: 6px;
-    font-size:x-large;
+    font-size:large;
     font-weight: 400;
     
   }

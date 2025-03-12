@@ -8,10 +8,13 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import restaurent from '../assets/restaurant-website.png'
 import phonotics from '../assets/phonotics.png'
+import portfoliotcss from '../assets/portfolio-tailwindcss.png'
 import weatherwatch from '../assets/weather-watch.png'
 import libo from '../assets/libo-library.png'
 import ubereats from '../assets/uber-eats-clone.png'
 import bmi from '../assets/bmi-calculator.png'
+import imagegallery from '../assets/image-gallery.png'
+
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import Footer from '../components/Footer';
 
@@ -83,7 +86,7 @@ function Home() {
                           <div className='d-flex flex-column justify-content-center align-items-center'>
                             {/* bar */}
                             <div className='mainbar'>
-                              <div className='subbar' style={{ height: "49px", textAlign: "center" }}>s</div>
+                              <div className='subbar' style={{ height: "210px", textAlign: "center" }}>85%</div>
 
                             </div>
                             {/* logo */}
@@ -97,7 +100,7 @@ function Home() {
                           <div className='d-flex flex-column justify-content-center align-items-center'>
                             {/* bar */}
                             <div className='mainbar'>
-                              <div className='subbar' style={{ height: "49px", textAlign: "center" }}>s</div>
+                              <div className='subbar' style={{ height: "208px", textAlign: "center" }}>82%</div>
 
                             </div>
                             {/* logo */}
@@ -111,7 +114,7 @@ function Home() {
                           <div className='d-flex flex-column justify-content-center align-items-center'>
                             {/* bar */}
                             <div className='mainbar'>
-                              <div className='subbar' style={{ height: "49px", textAlign: "center" }}>s</div>
+                              <div className='subbar' style={{ height: "184px", textAlign: "center" }}>75%</div>
 
                             </div>
                             {/* logo */}
@@ -130,7 +133,7 @@ function Home() {
                           <div className='d-flex flex-column justify-content-center align-items-center'>
                             {/* bar */}
                             <div className='mainbar'>
-                              <div className='subbar' style={{ height: "49px", textAlign: "center" }}>s</div>
+                              <div className='subbar' style={{ height: "168px", textAlign: "center" }}>70%</div>
 
                             </div>
                             {/* logo */}
@@ -144,7 +147,7 @@ function Home() {
                           <div className='d-flex flex-column justify-content-center align-items-center'>
                             {/* bar */}
                             <div className='mainbar'>
-                              <div className='subbar' style={{ height: "49px", textAlign: "center" }}>s</div>
+                              <div className='subbar' style={{ height: "186px", textAlign: "center" }}>77%</div>
 
                             </div>
                             {/* logo */}
@@ -158,7 +161,7 @@ function Home() {
                           <div className='d-flex flex-column justify-content-center align-items-center'>
                             {/* bar */}
                             <div className='mainbar'>
-                              <div className='subbar' style={{ height: "49px", textAlign: "center" }}>s</div>
+                              <div className='subbar' style={{ height: "186px", textAlign: "center" }}>77%</div>
 
                             </div>
                             {/* logo */}
@@ -195,12 +198,8 @@ function Home() {
                             <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
-                          <h5>dsfsdf</h5>  
-                          <h6>Technologies Used</h6>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
+                          <h5 className='mt-lg-4 mt-3'>Restaurant Website</h5>  
+                          
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
                           <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
@@ -221,12 +220,8 @@ function Home() {
                             <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
-                          <h5>dsfsdf</h5>  
-                          <h6>Technologies Used</h6>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
+                          <h5 className='mt-lg-4 mt-3'>Mobile-shop Website</h5>  
+                          
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
                           <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
@@ -245,7 +240,7 @@ function Home() {
                         {/* project card */}
                         <div>
                           <div className='projectmaindiv'  >
-                            <img src={weatherwatch}alt="" className='w-100' />
+                            <img src={portfoliotcss}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
                             <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
@@ -253,12 +248,8 @@ function Home() {
                             </div>
                           </div>
                           
-                          <h5>dsfsdf</h5>  
-                          <h6>Technologies Used</h6>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
+                          <h5 className='mt-lg-4 mt-3'>Portfolio using Tailwind CSS</h5>  
+                          
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
                           <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
@@ -272,19 +263,15 @@ function Home() {
                         {/* project card */}
                         <div>
                           <div className='projectmaindiv'  >
-                            <img src={libo}alt="" className='w-100' />
+                            <img src={weatherwatch}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
                             <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
                             <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
-                          <h5>dsfsdf</h5>  
-                          <h6>Technologies Used</h6>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
+                          <h5 className='mt-lg-4 mt-3'>Weather Application</h5>  
+                          
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
                           <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
@@ -302,19 +289,15 @@ function Home() {
                         {/* project card */}
                         <div>
                           <div className='projectmaindiv'  >
-                            <img src={ubereats}alt="" className='w-100' />
+                            <img src={libo}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
                             <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
                             <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
-                          <h5>dsfsdf</h5>     
-                          <h6>Technologies Used</h6>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
+                          <h5 className='mt-lg-4 mt-3'>Library Website</h5>     
+                          
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
                           <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
@@ -328,6 +311,32 @@ function Home() {
                         {/* project card */}
                         <div>
                           <div className='projectmaindiv'  >
+                            <img src={ubereats}alt="" className='w-100' />
+                          <div  className='projecthoverdiv' > 
+                            <div className='projecthoversubdiv'>
+                            <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                            <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                            </div>
+                          </div>
+                          <h5 className='mt-lg-4 mt-3'>Uber-eats-clone</h5>    
+                          
+                          <div className='projectlinksmmaindiv'>
+                          <div className='projectlinksmdiv'>
+                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          </div>
+                          </div>  
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                  <div className="row">
+                      <div className="col-md-6 text-center">
+                        {/* project card */}
+                        <div>
+                          <div className='projectmaindiv'  >
                             <img src={bmi}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
@@ -335,12 +344,30 @@ function Home() {
                             <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
-                          <h5>dsfsdf</h5>    
-                          <h6>Technologies Used</h6>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
-                          <p className='technologiespara'>html</p>
+                          <h5 className='mt-lg-4 mt-3'>BMI Calculator</h5>     
+                          
+                          <div className='projectlinksmmaindiv'>
+                          <div className='projectlinksmdiv'>
+                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          </div>
+                          </div> 
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-md-6 text-center">
+                        {/* project card */}
+                        <div>
+                          <div className='projectmaindiv'  >
+                            <img src={imagegallery}alt="" className='w-100' />
+                          <div  className='projecthoverdiv' > 
+                            <div className='projecthoversubdiv'>
+                            <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                            <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                            </div>
+                          </div>
+                          <h5 className='mt-lg-4 mt-3'>Image-Gallery using Json-server</h5>    
+                          
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
                           <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
