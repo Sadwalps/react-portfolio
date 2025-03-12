@@ -7,21 +7,28 @@ import { faBootstrap, faCss3Alt, faHtml5, faReact, faSquareGithub, faSquareJs } 
 import Carousel from 'react-bootstrap/Carousel';
 
 import restaurent from '../assets/restaurant-website.png'
+import phonotics from '../assets/phonotics.png'
+import weatherwatch from '../assets/weather-watch.png'
+import libo from '../assets/libo-library.png'
+import ubereats from '../assets/uber-eats-clone.png'
+import bmi from '../assets/bmi-calculator.png'
 import { faLink } from '@fortawesome/free-solid-svg-icons';
+import Footer from '../components/Footer';
 
 
 function Home() {
   return (
     <>
-      <div><Header /></div>
-      <div className="container-fluid">
+    <div id='maindiv'>
+      <div id='headerdiv'><Header /></div>
+      <div className="container-fluid" >
         <div className="row">
           <div className="col-md-5" >
 
-            <div style={{ position: "fixed", top: "100px" }} id='homelargescreendiv'>
+            <div style={{ position: "fixed", top: "100px" , color:"white"}} id='homelargescreendiv'>
 
               <h2 className='mt-5 ms-5'>SADWAL</h2>
-              <Nav className="d-flex flex-column mt-5 ms-4" >
+              <Nav className="d-flex flex-column mt-5 ms-4 " >
                 <Nav.Link href="#action1" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>Home</div></div></Nav.Link>
                 <Nav.Link href="#action1" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>About</div></div></Nav.Link>
                 <Nav.Link href="#action1" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>Skills</div></div></Nav.Link>
@@ -31,7 +38,7 @@ function Home() {
             </div>
           </div>
           <div className="col-md-7 rounded p-0 ">
-            <div className='mt-2  ' style={{ width: "100%", backgroundColor: "rgb(141, 55, 55)" }}>
+            <div className='  ' style={{ width: "100%", backgroundColor: "rgb(122, 37, 37)" }}>
               <div id='maincontainerdiv' >
                 <h1 className='text-center pt-5 ' style={{ fontSize: "50px", fontWeight: "bold" }}>SADWAL PS</h1>
                 <h2 className='text-center pt-2 pb-lg-5 pb-4' style={{ fontSize: "30px" }}>(Full Stack Developer)</h2>
@@ -169,7 +176,7 @@ function Home() {
               </div>
 
               {/* My Projects */}
-
+              
               <div className='pt-lg-5 pt-4 pb-lg-5 pb-4' style={{ backgroundColor: "rgb(15, 107, 93)" }}>
                 <h2 style={{ fontWeight: "bold", textAlign: "center", color: "white" }} className='mb-lg-5 mb-3'>My Projects</h2>
 
@@ -188,7 +195,18 @@ function Home() {
                             <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
-                          <h5>dsfsdf</h5>      
+                          <h5>dsfsdf</h5>  
+                          <h6>Technologies Used</h6>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <div className='projectlinksmmaindiv'>
+                          <div className='projectlinksmdiv'>
+                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          </div>
+                          </div>    
                           </div>
                         </div>
                       </div>
@@ -196,14 +214,25 @@ function Home() {
                         {/* project card */}
                         <div>
                           <div className='projectmaindiv'  >
-                            <img src={restaurent}alt="" className='w-100' />
+                            <img src={phonotics}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
                             <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
                             <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
-                          <h5>dsfsdf</h5>      
+                          <h5>dsfsdf</h5>  
+                          <h6>Technologies Used</h6>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <div className='projectlinksmmaindiv'>
+                          <div className='projectlinksmdiv'>
+                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          </div>
+                          </div>    
                           </div>
                         </div>
                       </div>
@@ -216,14 +245,26 @@ function Home() {
                         {/* project card */}
                         <div>
                           <div className='projectmaindiv'  >
-                            <img src={restaurent}alt="" className='w-100' />
+                            <img src={weatherwatch}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
                             <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
                             <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
-                          <h5>dsfsdf</h5>      
+                          
+                          <h5>dsfsdf</h5>  
+                          <h6>Technologies Used</h6>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <div className='projectlinksmmaindiv'>
+                          <div className='projectlinksmdiv'>
+                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          </div>
+                          </div>
                           </div>
                         </div>
                       </div>
@@ -231,14 +272,25 @@ function Home() {
                         {/* project card */}
                         <div>
                           <div className='projectmaindiv'  >
-                            <img src={restaurent}alt="" className='w-100' />
+                            <img src={libo}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
                             <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
                             <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
-                          <h5>dsfsdf</h5>      
+                          <h5>dsfsdf</h5>  
+                          <h6>Technologies Used</h6>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <div className='projectlinksmmaindiv'>
+                          <div className='projectlinksmdiv'>
+                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          </div>
+                          </div>    
                           </div>
                         </div>
                       </div>
@@ -250,14 +302,25 @@ function Home() {
                         {/* project card */}
                         <div>
                           <div className='projectmaindiv'  >
-                            <img src={restaurent}alt="" className='w-100' />
+                            <img src={ubereats}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
                             <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
                             <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
-                          <h5>dsfsdf</h5>      
+                          <h5>dsfsdf</h5>     
+                          <h6>Technologies Used</h6>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <div className='projectlinksmmaindiv'>
+                          <div className='projectlinksmdiv'>
+                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          </div>
+                          </div> 
                           </div>
                         </div>
                       </div>
@@ -265,34 +328,73 @@ function Home() {
                         {/* project card */}
                         <div>
                           <div className='projectmaindiv'  >
-                            <img src={restaurent}alt="" className='w-100' />
+                            <img src={bmi}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
                             <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
                             <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
-                          <h5>dsfsdf</h5>      
+                          <h5>dsfsdf</h5>    
+                          <h6>Technologies Used</h6>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <p className='technologiespara'>html</p>
+                          <div className='projectlinksmmaindiv'>
+                          <div className='projectlinksmdiv'>
+                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          </div>
+                          </div>  
                           </div>
                         </div>
                       </div>
                     </div>
                   </Carousel.Item>
                 </Carousel>
+              </div>
 
+              {/* Contact */}
+              <div className='pt-lg-5 pt-4 pb-lg-5 pb-4' style={{ backgroundColor: "rgb(237, 203, 239)" }}>
+              <h2 style={{ fontWeight: "bold", textAlign: "center", color: "black" }} className='mb-lg-5 mb-3'>Contact Me</h2>
+
+              <div className='container-fluid mt-lg-5 mt-3 mb-lg-5 mb-3'>
+                <div className="row">
+                  <div className="col-md-7 p-2">
+                    <input type="text" className='form-control mt-lg-4 mt-2 pt-lg-3 pb-lg-3 pt-2 pb-2' style={{borderRadius:"0px", backgroundColor:"rgb(166, 65, 65)", border:"1px solid ", borderColor:"white"}} placeholder='hdhfjkhdfh'  />
+                    <input type="text" className='form-control mt-lg-4 mt-2 pt-lg-3 pb-lg-3 pt-2 pb-2' style={{borderRadius:"0px", backgroundColor:"rgb(166, 65, 65)", border:"1px solid ", borderColor:"white"}} placeholder='hdhfjkhdfh' />
+                    <textarea name="" id="" className='form-control mt-lg-4 mt-2 pt-lg-3 pb-lg-3 pt-2 pb-2' style={{borderRadius:"0px", backgroundColor:"rgb(166, 65, 65)", border:"1px solid "}} placeholder='hdfjhdjfh'>
+
+                    </textarea>
+                    <button className='btn mt-lg-4 mt-2 p-lg-3 p-2 ' id='contactsubmitbutton' >submit now</button>
+
+                  </div>
+                  <div className="col-md-5  p-3">
+                    <h4 className='mt-3' style={{color:"black"}}>Email</h4>
+                    <p style={{color:"rgb(44, 39, 39)"}}>sadwalps2255@gmail.com</p>
+                    
+
+                    <h4 style={{color:"black"}}>Phone</h4>
+                    <p style={{color:"rgb(44, 39, 39)"}}>9207281049</p>
+                    
+                  
+                  </div>
+                </div>
+              </div>
 
               </div>
 
 
 
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nam ea enim odit illum repellendus cumque, doloremque porro et, sapiente ducimus? Nisi deleniti architecto, dolore enim et sit eos libero quae. Laboriosam corporis veritatis debitis molestiae asperiores aliquid omnis impedit distinctio commodi praesentium eaque dolor cupiditate amet eveniet ea a, necessitatibus, similique facilis veniam iusto quas. Vitae, adipisci. Tempora harum temporibus voluptates officia laudantium omnis quod maxime eius nobis eveniet molestias culpa repellat sapiente necessitatibus ipsa quam, ratione, atque blanditiis sit saepe similique? Dolore quaerat ipsum placeat eum, maiores nisi, dignissimos aut vitae labore minus doloribus nam animi beatae rerum sed repellat? Alias tempore mollitia harum culpa animi ad excepturi eum officia, ipsa, reprehenderit possimus accusamus eveniet quidem magnam, tempora ullam modi! Id iusto quisquam, soluta laborum voluptatem, quod facere magnam perspiciatis harum natus exercitationem, dignissimos ratione quos aspernatur illo. Reprehenderit rerum, nam deserunt obcaecati laborum minus doloribus iusto voluptatibus libero rem quia magnam! Ad at fuga rem laboriosam nesciunt ipsam soluta minima dolorum maxime dolorem accusantium beatae dignissimos iusto sapiente, magni velit, quaerat quasi veniam. Neque recusandae reprehenderit voluptatum culpa minima dignissimos blanditiis, aperiam tempore voluptatibus, fugit numquam, praesentium accusamus tempora pariatur voluptatem ducimus maiores. Fugit perferendis architecto possimus sequi inventore neque magnam, eum distinctio recusandae, autem molestias maiores tempora! Aut corrupti officiis suscipit soluta magnam blanditiis repellendus tempore dolores labore aspernatur, vitae amet rem modi assumenda doloremque incidunt consequatur nemo facere beatae eum. Eveniet officia mollitia autem optio distinctio omnis velit magnam laudantium! Soluta vel quas autem veniam eum aperiam ipsa dignissimos tempora atque a provident repellat animi perferendis doloremque quos libero sint consequatur, ea rem eius assumenda! Reprehenderit, eos asperiores, esse ducimus autem eum soluta dicta deserunt tempore ex aperiam. Iste sapiente molestias assumenda necessitatibus. Numquam quis eligendi modi id consequatur. Labore assumenda porro mollitia facere sunt maxime dolor? Qui fugiat quod accusantium eveniet itaque voluptatum velit cumque beatae. Hic vel quae assumenda. Labore ullam debitis ad nulla, ducimus error. Nulla temporibus molestiae, explicabo, obcaecati provident ducimus enim dolores corrupti pariatur laborum nam dolore inventore in eligendi ab? Facilis maxime asperiores quas necessitatibus perferendis cumque iste rerum quam molestias? Aliquam incidunt optio accusantium harum facere quos saepe iste illum consectetur magnam natus ut, in nesciunt voluptatibus temporibus illo expedita, quasi consequuntur possimus cumque dolor alias quidem corrupti recusandae! Aperiam unde totam veniam nulla accusantium ipsum perspiciatis provident voluptatem, blanditiis adipisci dolores vero rerum exercitationem commodi quaerat cum fugit nostrum, non illum suscipit. Quas, ut. Minima dolorem minus eius dolore, numquam, odit neque voluptatibus placeat, aut quia rerum sequi? Enim ipsa iste repudiandae qui iure consequuntur quaerat, vero optio iusto sunt saepe! Recusandae ipsum earum animi totam. Fugit eos accusamus officiis. Provident quis voluptate voluptatem accusantium dolores commodi natus est repudiandae sapiente deleniti laudantium enim, cumque deserunt corporis recusandae. Omnis, sequi error quia reiciendis optio nesciunt maxime debitis obcaecati, repellat illo rerum blanditiis aperiam ipsam accusamus corrupti odit eveniet dolore explicabo iure esse! Odit ratione consequuntur neque optio modi saepe accusamus obcaecati, perspiciatis vel dolore, quidem officiis earum. Veritatis hic odio nulla suscipit aliquid veniam enim dolores sapiente, officia incidunt quis amet atque adipisci laboriosam voluptatum iusto. Esse excepturi iste officiis at veritatis inventore reprehenderit. Pariatur deserunt nisi corrupti qui atque vel sit ratione, quasi itaque tenetur nostrum! Enim, iusto? Laudantium quod blanditiis eaque officiis praesentium pariatur nesciunt vero placeat perferendis laborum! Illo minima officia sequi libero doloribus quos aperiam voluptatum, voluptate consectetur perferendis eius odio eaque tenetur optio vel veritatis nisi ducimus id sunt quam eveniet saepe, officiis soluta. Itaque tenetur sunt sapiente alias porro obcaecati optio ad nemo perferendis a, autem ipsa doloribus neque animi aut libero amet deserunt, fugit, voluptatibus perspiciatis? At, eveniet. Animi quae, harum mollitia alias nemo aut eveniet possimus tempore adipisci dignissimos dolor quaerat nihil amet, deserunt totam necessitatibus reprehenderit eius id. Nihil nobis saepe ullam. Commodi ad odio reiciendis voluptates ipsam rerum, laboriosam exercitationem iure illum impedit repellat, consequatur fugiat delectus eum alias deserunt. Necessitatibus officia itaque numquam, quaerat, obcaecati tempore nesciunt autem dolorem blanditiis dolores ex amet accusantium est quibusdam adipisci esse eligendi, iure eius sunt? Facilis, eos quas praesentium unde maiores veniam impedit sit repellat vero possimus magni totam dolorem, error architecto perspiciatis eveniet nulla assumenda consequatur? Pariatur harum minus recusandae corrupti laborum vel ratione officiis vero quidem beatae modi nobis ea maiores blanditiis, hic magnam facere nostrum, doloribus inventore rem illo voluptatem illum rerum? Rerum vitae voluptatem eligendi cumque doloribus voluptates autem, ducimus fugiat tempora sed nisi magnam eum dolorem nobis eius deleniti, numquam adipisci error fuga incidunt repellendus minima doloremque eos? Officia impedit, adipisci dignissimos facilis pariatur quas. Exercitationem quo, nesciunt vero harum corrupti architecto deleniti totam natus ullam officiis tenetur iure beatae dolorem temporibus eaque. Rem deleniti, excepturi obcaecati distinctio tempora expedita illo eius repellat voluptas aliquam commodi libero assumenda nesciunt neque, cum asperiores harum exercitationem! Ipsam modi, distinctio obcaecati veritatis ab perspiciatis dolorum tenetur maxime enim laboriosam possimus impedit quae nam eligendi provident iste quibusdam atque tempore, itaque nihil praesentium corrupti. Esse, obcaecati. Voluptates vero laudantium aspernatur harum rem reprehenderit distinctio, repudiandae mollitia maiores! Provident numquam quae consequatur accusamus obcaecati eos culpa dicta facilis sapiente placeat ipsa iusto atque nisi enim exercitationem voluptatibus natus, totam explicabo veniam quidem necessitatibus. Et laboriosam totam veniam mollitia. Illum nemo assumenda dolores alias nisi nostrum dicta accusantium sint quisquam quasi aliquam, debitis sed consequatur tenetur quos optio mollitia laudantium velit impedit corrupti delectus in? Quia magni itaque provident sunt ut aliquid, tempora possimus ipsum quisquam esse alias nulla eligendi dicta odit labore sed velit impedit temporibus voluptatum aliquam blanditiis saepe porro laboriosam! Quae odio assumenda magni aliquid facere pariatur consequatur eos harum similique suscipit, fuga blanditiis in non tempora excepturi, et fugiat exercitationem numquam unde! Harum, alias. Voluptate cum nisi minima ad ducimus, quam enim unde totam dolores saepe natus magnam, iste, repellat beatae dicta asperiores ullam rem accusantium laudantium dolore ratione. Sapiente numquam nemo qui ullam ipsam sed vel iste quisquam dignissimos aliquam doloribus molestiae reprehenderit laboriosam, facere aperiam necessitatibus sequi vero optio? Nihil obcaecati vitae distinctio exercitationem.
-              </p>
-
+             
 
             </div>
+            <div><Footer/></div>
+            
           </div>
         </div>
+      </div>
       </div>
     </>
 

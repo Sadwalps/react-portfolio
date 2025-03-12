@@ -4,6 +4,7 @@
   align-items: center;
   width: 200px;
   font-size: x-large;
+  color: white;
   
 }
 #navmaindiv #hoverdiv{
@@ -11,7 +12,7 @@
   width: 0px;
   background-color: brown;
   margin-top: 5px;
-  background-color: rgb(151, 203, 232);
+  background-color: white;
   margin-right: 5px;
   border-radius: 7px;
 }
@@ -25,7 +26,7 @@
   
 }
 #maincontainerdiv{
-  background-color: rgb(141, 55, 55);
+  background-color: rgb(122, 37, 37);
   width: 100%;
   padding: 40px 35px 0px 35px;
   color: white;
@@ -73,11 +74,12 @@
 .projectmaindiv{
   padding: 10px 10px;
   position: relative;
+  color: white;
   
 }
 .projectmaindiv .projecthoverdiv{
   position: absolute;
-  bottom: 80px;
+  bottom: 280px;
   left: 120px;
   display: none;
 }
@@ -89,7 +91,46 @@
   gap: 80px;
   font-size: 50px;
 }
+.projectlinksmdiv{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
 
+}
+.projectlinksmmaindiv{
+  display: none;
+}
+#contactsubmitbutton{
+  color:white ;
+  background-color: rgb(166, 65, 65);
+  border-radius: 0px;
+}
+#contactsubmitbutton:hover{
+  background-color: brown;
+}
+.footerlogodiv{
+  padding: 10px 18px;
+  background-color:rgb(122, 37, 37);
+  border-radius: 50%;
+  font-size: x-large;
+  border: 1px solid;
+  border-color:rgb(237, 203, 239) ;
+  margin-top: 15px;
+  
+}
+.footerlogodiv a{
+  color:rgb(237, 203, 239) ;
+}
+.footerlogodiv:hover{
+  background-color: rgb(237, 203, 239);
+}
+.footerlogodiv:hover a{
+  color: rgb(122, 37, 37);
+  transition-duration: .4s;
+}
+#headerdiv{
+  display: none;
+}
 
 
 
@@ -97,6 +138,7 @@
 @media screen and (max-width:765px){
   #homelargescreendiv{
     display: none;
+    background-color: black;
   }
   #maincontainerdiv{
     padding: 25px 20px 0px 20px;
@@ -134,7 +176,15 @@
   .projectmaindiv:hover .projecthoverdiv{
     display: none;
   }
-
+  .projectlinksmmaindiv{
+    display: block;
+  }
+  #headerdiv{
+    display: block;
+  }
+  #maindiv{
+    background-color: rgb(122, 37, 37);
+  }
 }
 
 @media screen and (max-width:450px){
@@ -163,6 +213,18 @@
   }
   .projectmaindiv:hover .projecthoverdiv{
     display: none;
+  }
+  .technologiespara{
+    font-size: 12px;
+  }
+  .projectlinksmmaindiv{
+    display: block;
+  }
+  .footerlogodiv{
+    padding: 8px 14px;
+    font-size: large;
+    margin-top: 10px;
+    
   }
 }
 
