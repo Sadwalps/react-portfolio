@@ -32,6 +32,9 @@
   color: white;
   font-size: larger;
 }
+#profilephoto{
+  height: 550px;
+}
 
 #Educationdiv{
   background-color:rgb(250, 223, 224) ;
@@ -93,7 +96,7 @@
 }
 .projectlinksmdiv{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 30px;
 
 }
@@ -144,6 +147,9 @@
     padding: 25px 20px 0px 20px;
     font-size: smaller;
     
+  }
+  #profilephoto{
+    height: 350px;
   }
   #Educationdiv{
     padding: 25px 20px 0px 20px;
@@ -201,6 +207,9 @@
     font-size:large;
     font-weight: 400;
     
+  }
+  #profilephoto{
+    height: 300px;
   }
   .logodiv{
     font-size:x-large;

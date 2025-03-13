@@ -14,9 +14,11 @@ import libo from '../assets/libo-library.png'
 import ubereats from '../assets/uber-eats-clone.png'
 import bmi from '../assets/bmi-calculator.png'
 import imagegallery from '../assets/image-gallery.png'
+import profilephoto from '../assets/profile image.jpg'
 
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import Footer from '../components/Footer';
+
 
 
 function Home() {
@@ -32,11 +34,11 @@ function Home() {
 
               <h2 className='mt-5 ms-5'>SADWAL</h2>
               <Nav className="d-flex flex-column mt-5 ms-4 " >
-                <Nav.Link href="#action1" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>Home</div></div></Nav.Link>
-                <Nav.Link href="#action1" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>About</div></div></Nav.Link>
-                <Nav.Link href="#action1" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>Skills</div></div></Nav.Link>
-                <Nav.Link href="#action1" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>Projects</div></div></Nav.Link>
-                <Nav.Link href="#action1" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>Contact</div></div></Nav.Link>
+                <Nav.Link href="#maincontainerdiv" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>Home</div></div></Nav.Link>
+                <Nav.Link href="#aboutdiv" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>About</div></div></Nav.Link>
+                <Nav.Link href="#skillsdiv" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>Skills</div></div></Nav.Link>
+                <Nav.Link href="#projectsdiv" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>Projects</div></div></Nav.Link>
+                <Nav.Link href="#contactdiv" ><div className='d-flex  algin-items-center' id='navmaindiv'> <div id='hoverdiv'></div><div id='nav'>Contact</div></div></Nav.Link>
               </Nav>
             </div>
           </div>
@@ -44,8 +46,13 @@ function Home() {
             <div className='  ' style={{ width: "100%", backgroundColor: "rgb(122, 37, 37)" }}>
               <div id='maincontainerdiv' >
                 <h1 className='text-center pt-5 ' style={{ fontSize: "50px", fontWeight: "bold" }}>SADWAL PS</h1>
-                <h2 className='text-center pt-2 pb-lg-5 pb-4' style={{ fontSize: "30px" }}>(Full Stack Developer)</h2>
-                <p style={{ textAlign: "justify" }}>
+                <h2 className='text-center pt-2 pb-lg-5 pb-4' style={{ fontSize: "30px" }}>(Frontend Developer)</h2>
+                <div id='aboutdiv p-2'>
+                  <div className='border border-3 border-dark p-2'>
+                    <img src={profilephoto} alt="" className='w-100' id='profilephoto' />
+                  </div>
+                </div>
+                <p style={{ textAlign: "justify", marginTop:"20px" }}>
                   <span style={{ color: "yellow" }}>Hello i'm Sadwal ps,</span> a passionate web developer with a bachelor's degree in computer science. I'm currently enhancing my skills in web development through ME(A)RN Stack course in luminar technolab. <br /> <br /> <span style={{ color: "yellow" }}>My Journey:</span> <br /> After completeting my degree, i discovered my love for web development. The intersection of technology and creativity fascinates me, and i'm exicited to build dynamic and user-friendly web applications. <br /> <br />  I aim to contribute to impactful projects and collaborate with talend individuals in the tech community. I'm eager to learn and grow as a developer
                 </p>
               </div>
@@ -76,7 +83,7 @@ function Home() {
               </div>
 
               {/* My skills */}
-              <div className='pt-lg-5 pt-4 pb-lg-5 pb-4' style={{ backgroundColor: "rgb(79, 13, 13)" }}>
+              <div className='pt-lg-5 pt-4 pb-lg-5 pb-4' style={{ backgroundColor: "rgb(79, 13, 13)" }} id='skillsdiv'>
                 <h2 style={{ fontWeight: "bold", textAlign: "center", color: "white" }}>My Skills</h2>
                 <div className='container-fluid mt-lg-5 mt-4 mb-lg-5 mb-4'>
                   <div className="row">
@@ -180,7 +187,7 @@ function Home() {
 
               {/* My Projects */}
               
-              <div className='pt-lg-5 pt-4 pb-lg-5 pb-4' style={{ backgroundColor: "rgb(15, 107, 93)" }}>
+              <div className='pt-lg-5 pt-4 pb-lg-5 pb-4' style={{ backgroundColor: "rgb(15, 107, 93)" }} id='projectsdiv' >
                 <h2 style={{ fontWeight: "bold", textAlign: "center", color: "white" }} className='mb-lg-5 mb-3'>My Projects</h2>
 
                 {/* carousal */}
@@ -194,16 +201,16 @@ function Home() {
                             <img src={restaurent}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
-                            <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                            <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                            <a href="https://startling-griffin-e8c4ad.netlify.app"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                            <a href="https://github.com/Sadwalps/restaurant-website"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
                           <h5 className='mt-lg-4 mt-3'>Restaurant Website</h5>  
                           
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
-                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          <a href="https://startling-griffin-e8c4ad.netlify.app"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href="https://github.com/Sadwalps/restaurant-website"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                           </div>
                           </div>    
                           </div>
@@ -216,16 +223,16 @@ function Home() {
                             <img src={phonotics}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
-                            <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                            <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                            <a href="https://darling-axolotl-6566d4.netlify.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                            <a href="https://github.com/Sadwalps/Mobile-shop-website"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
                           <h5 className='mt-lg-4 mt-3'>Mobile-shop Website</h5>  
                           
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
-                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          <a href="https://darling-axolotl-6566d4.netlify.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href="https://github.com/Sadwalps/Mobile-shop-website"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                           </div>
                           </div>    
                           </div>
@@ -243,8 +250,8 @@ function Home() {
                             <img src={portfoliotcss}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
-                            <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                            <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                            <a href="https://tranquil-moonbeam-34d74f.netlify.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                            <a href="https://github.com/Sadwalps/Responsive-portfolio"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
                           
@@ -252,8 +259,8 @@ function Home() {
                           
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
-                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          <a href="https://tranquil-moonbeam-34d74f.netlify.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href="https://github.com/Sadwalps/Responsive-portfolio"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                           </div>
                           </div>
                           </div>
@@ -266,16 +273,16 @@ function Home() {
                             <img src={weatherwatch}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
-                            <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                            <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                            <a href="https://weather-application-smoky-rho.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                            <a href="https://github.com/Sadwalps/weather-application"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
                           <h5 className='mt-lg-4 mt-3'>Weather Application</h5>  
                           
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
-                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          <a href="https://weather-application-smoky-rho.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href="https://github.com/Sadwalps/weather-application"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                           </div>
                           </div>    
                           </div>
@@ -292,16 +299,16 @@ function Home() {
                             <img src={libo}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
-                            <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                            <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                            <a href="https://library-azure-seven.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                            <a href="https://github.com/Sadwalps/library"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
                           <h5 className='mt-lg-4 mt-3'>Library Website</h5>     
                           
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
-                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          <a href="https://library-azure-seven.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href="https://github.com/Sadwalps/library"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                           </div>
                           </div> 
                           </div>
@@ -314,16 +321,16 @@ function Home() {
                             <img src={ubereats}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
-                            <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                            <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                            <a href="https://uber-eats-clone-omega.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                            <a href="https://github.com/Sadwalps/uber-eats--clone"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
                           <h5 className='mt-lg-4 mt-3'>Uber-eats-clone</h5>    
                           
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
-                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          <a href="https://uber-eats-clone-omega.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href="https://github.com/Sadwalps/uber-eats--clone"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                           </div>
                           </div>  
                           </div>
@@ -340,16 +347,16 @@ function Home() {
                             <img src={bmi}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
-                            <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                            <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                            <a href="https://b-calculator.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                            <a href="https://github.com/Sadwalps/b-calculator"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
                           <h5 className='mt-lg-4 mt-3'>BMI Calculator</h5>     
                           
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
-                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
-                          <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
+                          <a href="https://b-calculator.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href="https://github.com/Sadwalps/b-calculator"><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                           </div>
                           </div> 
                           </div>
@@ -362,7 +369,7 @@ function Home() {
                             <img src={imagegallery}alt="" className='w-100' />
                           <div  className='projecthoverdiv' > 
                             <div className='projecthoversubdiv'>
-                            <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                            <a href="https://image-gallery-frontend-phi.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
                             <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                             </div>
                           </div>
@@ -370,7 +377,7 @@ function Home() {
                           
                           <div className='projectlinksmmaindiv'>
                           <div className='projectlinksmdiv'>
-                          <a href=""><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
+                          <a href="https://image-gallery-frontend-phi.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:"rgb(16, 190, 7)"}}/></a>
                           <a href=""><FontAwesomeIcon icon={faSquareGithub} style={{color:"rgb(7, 68, 190)"}} /></a>
                           </div>
                           </div>  
@@ -383,18 +390,20 @@ function Home() {
               </div>
 
               {/* Contact */}
-              <div className='pt-lg-5 pt-4 pb-lg-5 pb-4' style={{ backgroundColor: "rgb(237, 203, 239)" }}>
+              <div className='pt-lg-5 pt-4 pb-lg-5 pb-4' style={{ backgroundColor: "rgb(237, 203, 239)" }} id='contactdiv'>
               <h2 style={{ fontWeight: "bold", textAlign: "center", color: "black" }} className='mb-lg-5 mb-3'>Contact Me</h2>
 
               <div className='container-fluid mt-lg-5 mt-3 mb-lg-5 mb-3'>
                 <div className="row">
                   <div className="col-md-7 p-2">
-                    <input type="text" className='form-control mt-lg-4 mt-2 pt-lg-3 pb-lg-3 pt-2 pb-2' style={{borderRadius:"0px", backgroundColor:"rgb(166, 65, 65)", border:"1px solid ", borderColor:"white"}} placeholder='hdhfjkhdfh'  />
-                    <input type="text" className='form-control mt-lg-4 mt-2 pt-lg-3 pb-lg-3 pt-2 pb-2' style={{borderRadius:"0px", backgroundColor:"rgb(166, 65, 65)", border:"1px solid ", borderColor:"white"}} placeholder='hdhfjkhdfh' />
-                    <textarea name="" id="" className='form-control mt-lg-4 mt-2 pt-lg-3 pb-lg-3 pt-2 pb-2' style={{borderRadius:"0px", backgroundColor:"rgb(166, 65, 65)", border:"1px solid "}} placeholder='hdfjhdjfh'>
+                    <form action="">
+                    <input type="text" className='form-control mt-lg-4 mt-2 pt-lg-3 pb-lg-3 pt-2 pb-2' style={{borderRadius:"0px", backgroundColor:"rgb(166, 65, 65)", border:"1px solid ", borderColor:"white"}} placeholder='Your Name'  />
+                    <input type="email" className='form-control mt-lg-4 mt-2 pt-lg-3 pb-lg-3 pt-2 pb-2' style={{borderRadius:"0px", backgroundColor:"rgb(166, 65, 65)", border:"1px solid ", borderColor:"white"}} placeholder='Your Email' />
+                    <textarea name="" id="" className='form-control mt-lg-4 mt-2 pt-lg-3 pb-lg-3 pt-2 pb-2' style={{borderRadius:"0px", backgroundColor:"rgb(166, 65, 65)", border:"1px solid "}} placeholder='Message'>
 
                     </textarea>
-                    <button className='btn mt-lg-4 mt-2 p-lg-3 p-2 ' id='contactsubmitbutton' >submit now</button>
+                     <button type='reset' className='btn mt-lg-4 mt-2 p-lg-3 p-2 ' id='contactsubmitbutton' >submit now</button>
+                    </form>
 
                   </div>
                   <div className="col-md-5  p-3">
